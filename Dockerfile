@@ -1,4 +1,4 @@
-FROM adoptopenjdk/openjdk17:latest
+FROM openjdk:17
 
 COPY target/Demo_Application.jar /usr/app/
 
